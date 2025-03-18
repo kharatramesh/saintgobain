@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg1" {
-  name     = "trainer-saintgobain"
+  name     = "trainervadapav-saintgobain"
   location = var.region
 }
 
