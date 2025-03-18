@@ -23,3 +23,10 @@ resource "azurerm_virtual_network" "vnet3" {
   address_space = ["22.21.21.0/24"]
   resource_group_name = azurerm_resource_group.rg1.name
 }
+
+resource "azurerm_virtual_network" "vnet4" {
+  name     = "trainer-saintgobain-vnet4"
+  location = var.region
+  address_space = ["22.22.21.0/24"]
+  resource_group_name = azurerm_resource_group.rg1.name
+}
