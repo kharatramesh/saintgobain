@@ -2,7 +2,8 @@ terraform {
   cloud {
     organization = "saintgobain"
     workspaces {
-      name = "project1-w1"
+      name = "saintgobain-vcs"
+      tags = [ "saintgobain-vcs" ]
     }
   }
 }
